@@ -1,0 +1,7 @@
+01:54:49 **** Incremental Build of configuration Debug for project School_Managment_System ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SMS_Functions.o "..\\SMS_Functions.c" 
+gcc -o School_Managment_System.exe SMS_Functions.o SMS_main.o 
+
+01:54:50 Build Finished. 0 errors, 0 warnings. (took 809ms)
+
