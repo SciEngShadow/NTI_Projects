@@ -94,9 +94,9 @@ void NewStudent(List *lPtr) /*To Create A New Student Node In The Linked List*/
 	scanf("%02hu/%02hu/%04hu",&(nPtr->entry->brthdy.dy),&(nPtr->entry->brthdy.mnth),&(nPtr->entry->brthdy.yr));
 	printf("\n");
 
-	printf("Enter Student Phone Number:");
+	printf("Enter Student Phone Number(xxx-xxxxxxxx):");
 	fflush(stdin);fflush(stdout);
-	gets(nPtr->entry->phNumbr);
+    scanf("%03hu-%08lu",&(nPtr->entry->cc_ph),&(nPtr->entry->rst_ph));
 	printf("\n");
 
 	printf("Enter Student Address:");
@@ -335,10 +335,10 @@ void StudentEdit(List *lPtr) /*Edit A Student Info According To Its ID*/
 			scanf("%02hu/%02hu/%04hu",&(tmPtr->entry->brthdy.dy),&(tmPtr->entry->brthdy.mnth),&(tmPtr->entry->brthdy.yr));
 			printf("\n");
 
-			printf("Enter Student Phone Number:");
-			fflush(stdin);fflush(stdout);
-			gets(tmPtr->entry->phNumbr);
-			printf("\n");
+            printf("Enter Student Phone Number(xxx-xxxxxxxx):");
+            fflush(stdin);fflush(stdout);
+            scanf("%03hu-%08lu",&(tmPtr->entry->cc_ph),&(tmPtr->entry->rst_ph));
+            printf("\n");
 
 			printf("Enter Student Address:");
 			fflush(stdin);fflush(stdout);
@@ -559,7 +559,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 							  StudentsTotal};
 
 	/*Main Menu To Welcome And Show Options Using CallBack Method*/
-	Wrapper(MainMenu);
+	MinuDisp(MainMenu);
 
 	CreateList(inptPtr);
 
@@ -578,7 +578,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 			printf("You Are Entering a Student Data\n");
 			printf("-------------------------------\n\n");
 			fun[slct-1](inptPtr);  /*Using slct-1 as index as array index begins from 0*/
-			Wrapper(InMenu);
+			MinuDisp(InMenu);
 			break;
 		}/*case 1 End*/
 
@@ -587,7 +587,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 			printf("You Are Deleting a Student Data\n");
 			printf("-------------------------------\n\n");
 			fun[slct-1](inptPtr);
-			Wrapper(InMenu);
+			MinuDisp(InMenu);
 			break;
 		}/*case 2 End*/
 
@@ -596,7 +596,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 			printf("You Are Displaying Students Sorted By Their Names\n");
 			printf("-------------------------------------------------\n\n");
 			fun[slct-1](inptPtr);
-			Wrapper(InMenu);
+			MinuDisp(InMenu);
 			break;
 		}/*case 3 End*/
 
@@ -605,7 +605,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 			printf("You Are Editing a Student\n");
 			printf("-------------------------\n");
 			fun[slct-1](inptPtr);
-			Wrapper(InMenu);
+			MinuDisp(InMenu);
 			break;
 		}/*case 4 End*/
 
@@ -614,7 +614,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 			printf("You Are Displaying Students Sorted By Their Scores\n");
 			printf("--------------------------------------------------\n\n");
 			fun[slct-1](inptPtr);
-			Wrapper(InMenu);
+			MinuDisp(InMenu);
 			break;
 		}/*case 5 End*/
 
@@ -623,7 +623,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 			printf("You Are Updating Students' Score\n");
 			printf("--------------------------------\n\n");
 			fun[slct-1](inptPtr);
-			Wrapper(InMenu);
+			MinuDisp(InMenu);
 			break;
 		}/*case 6 End*/
 
@@ -632,7 +632,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 			printf("You Are Getting Total Number Of Students\n");
 			printf("----------------------------------------\n\n");
 			fun[slct-1](inptPtr);
-			Wrapper(InMenu);
+			MinuDisp(InMenu);
 			break;
 		}/*case 7 End*/
 
@@ -644,7 +644,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 		default:
 		{/*default Start*/
 			printf(">--------------------------------Invalid Activity--------------------------------<\n\n");
-			Wrapper(InMenu);
+			MinuDisp(InMenu);
 			break;
 		}/*default end*/
 
@@ -656,7 +656,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 
 /*-------------------------------------------------------------------------------------------------*/
 
-void Wrapper(void (*fun)())
+void MinuDisp(void (*fun)())
 {
 	fun();
 }

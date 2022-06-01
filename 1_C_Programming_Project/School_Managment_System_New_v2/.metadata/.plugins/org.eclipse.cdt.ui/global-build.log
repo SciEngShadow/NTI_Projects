@@ -1,4 +1,5 @@
-16:54:47 **** Incremental Build of configuration Debug for project School_Managment_System ****
+20:05:38 **** Incremental Build of configuration Debug for project School_Managment_System ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SMS_Functions.o "..\\SMS_Functions.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SMS_main.o "..\\SMS_main.c" 
 gcc -o School_Managment_System.exe SMS_Functions.o SMS_main.o 
