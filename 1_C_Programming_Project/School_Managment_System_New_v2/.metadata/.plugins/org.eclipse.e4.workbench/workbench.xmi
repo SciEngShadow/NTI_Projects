@@ -179,7 +179,6 @@
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <tags>noFocus</tags>
         <children xsi:type="basic:Part" xmi:id="_V96v4N-xEeyEFZpiorj41g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SMS_main.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;SMS_main.c&quot; partName=&quot;SMS_main.c&quot; title=&quot;SMS_main.c&quot; tooltip=&quot;School_Managment_System/SMS_main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/School_Managment_System/SMS_main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;447&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -193,7 +192,7 @@
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_L_NEAN-xEeyEFZpiorj41g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SMS_Functions.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;SMS_Functions.c&quot; partName=&quot;SMS_Functions.c&quot; title=&quot;SMS_Functions.c&quot; tooltip=&quot;School_Managment_System/SMS_Functions.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/School_Managment_System/SMS_Functions.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;21047&quot; selectionTopPixel=&quot;9425&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;SMS_Functions.c&quot; partName=&quot;SMS_Functions.c&quot; title=&quot;SMS_Functions.c&quot; tooltip=&quot;School_Managment_System/SMS_Functions.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/School_Managment_System/SMS_Functions.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;21229&quot; selectionTopPixel=&quot;9440&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
@@ -312,7 +311,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CopkUN-xEeyEFZpiorj41g" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_hQYYgOGnEeytVcVnwnuvgg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_CQBB7d-xEeyEFZpiorj41g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ams0IOG6Eey9LNASg0tPlw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_CQBB7d-xEeyEFZpiorj41g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CoqLYN-xEeyEFZpiorj41g" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -346,7 +345,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CoqycN-xEeyEFZpiorj41g" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_hQo3MOGnEeytVcVnwnuvgg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_CP_Mwt-xEeyEFZpiorj41g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_amy6wOG6Eey9LNASg0tPlw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_CP_Mwt-xEeyEFZpiorj41g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Coqycd-xEeyEFZpiorj41g" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

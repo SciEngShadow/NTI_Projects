@@ -577,7 +577,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 		{/*case 1 Start*/
 			printf("You Are Entering a Student Data\n");
 			printf("-------------------------------\n\n");
-			fun[0](inptPtr);
+			fun[slct-1](inptPtr);  /*Using slct-1 as index as array index begins from 0*/
 			Wrapper(InMenu);
 			break;
 		}/*case 1 End*/
@@ -586,7 +586,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 		{/*case 2 Start*/
 			printf("You Are Deleting a Student Data\n");
 			printf("-------------------------------\n\n");
-			fun[1](inptPtr);
+			fun[slct-1](inptPtr);
 			Wrapper(InMenu);
 			break;
 		}/*case 2 End*/
@@ -595,7 +595,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 		{/*case 3 Start*/
 			printf("You Are Displaying Students Sorted By Their Names\n");
 			printf("-------------------------------------------------\n\n");
-			fun[2](inptPtr);
+			fun[slct-1](inptPtr);
 			Wrapper(InMenu);
 			break;
 		}/*case 3 End*/
@@ -604,7 +604,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 		{/*case 4 Start*/
 			printf("You Are Editing a Student\n");
 			printf("-------------------------\n");
-			fun[3](inptPtr);
+			fun[slct-1](inptPtr);
 			Wrapper(InMenu);
 			break;
 		}/*case 4 End*/
@@ -613,7 +613,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 		{/*case 5 Start*/
 			printf("You Are Displaying Students Sorted By Their Scores\n");
 			printf("--------------------------------------------------\n\n");
-			fun[4](inptPtr);
+			fun[slct-1](inptPtr);
 			Wrapper(InMenu);
 			break;
 		}/*case 5 End*/
@@ -622,7 +622,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 		{/*case 6 Start*/
 			printf("You Are Updating Students' Score\n");
 			printf("--------------------------------\n\n");
-			fun[5](inptPtr);//edit all scores
+			fun[slct-1](inptPtr);
 			Wrapper(InMenu);
 			break;
 		}/*case 6 End*/
@@ -631,7 +631,7 @@ void SlctActvty() /*To Select Between Activities On Data Of Students*/
 		{/*case 7 Start*/
 			printf("You Are Getting Total Number Of Students\n");
 			printf("----------------------------------------\n\n");
-			fun[6](inptPtr);
+			fun[slct-1](inptPtr);
 			Wrapper(InMenu);
 			break;
 		}/*case 7 End*/
